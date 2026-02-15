@@ -9,3 +9,9 @@ seaborn==0.12.2
 skunk==1.2.0
 typing_extensions==4.4.0
 umap-learn==0.5.5
+
+# Core training dependencies.
+# If you need a specific CUDA build, install torch via https://pytorch.org/get-started/locally/
+torch>=2.1.0
+torch-geometric>=2.3.0
+captum>=0.7.0
